@@ -1,0 +1,281 @@
+body{
+	border: black;
+	border-radius: 5px;
+	border: solid;
+}
+
+/* Navbar Start */
+
+.home{
+    
+    float: left;
+
+
+}
+.close{
+    
+    float: left;
+    margin-right: 1%;
+
+}
+.right{
+    
+    float: left;
+
+    margin-right: 1%;
+
+}
+
+.left{
+    float: left;
+    margin-right: 1%;
+    margin-left: 3%;
+
+}
+
+.search-button{
+    background-color: white;
+    height: 26px;
+    width: 80px;
+    float: right;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 15%;
+    border-radius: 10px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-box{
+    background-color: white;
+    height: 26px;
+    width: 900px;
+    top: 50%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 15%;
+    
+}
+
+
+
+.Navbar-Top{
+	background-color: #cecece;
+
+
+	height: 94px;
+}
+
+.Nav-content{
+	display:flex;
+	justify-content: center;
+}
+
+#line-1{
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+
+} 
+
+ /* Desktop */
+@media screen and (min-width: 992px) {
+
+    .search-box{
+        width: 59%;
+        margin-left: 20%;
+    }
+    
+}
+
+/* phone */
+@media screen and (max-width: 767px) {
+
+    .search-button{
+        width: 6%;
+        margin-right: 2%;
+    }
+    
+    .search-box{
+        
+        width: 60%;
+        margin-left: 24%;
+        font-size: 9px;
+    }
+    
+    .right{
+        width: 10px;
+        margin-left: 3%;
+    }
+    
+    .close{
+        width: 10px;
+        margin-left: 3%;
+    }
+    
+    .left{
+        width: 10px;
+        margin-left: 0.1%;
+    }
+    
+    .home{
+        width: 10px;
+        margin-left: 3%;
+    }
+
+}
+
+/* tablet */
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+.body{
+    width: 10%;
+}
+
+
+.search-button{
+    width: 5%;
+    margin-right: 3%;
+
+}
+
+.search-box{
+    width: 56%;
+    margin-left: 25%;
+    
+}
+
+.right{
+    width: 1%;
+    margin-left: 4%;
+}
+
+.close{
+    width: 1%;
+    margin-left: 4%;
+}
+
+.left{
+    width: 1%;
+}
+
+.home{
+    width: 1%;
+    margin-left: 3%;
+}
+
+}
+
+
+/* Navbar End */
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
+} 
+
+/* Content Start */
+
+.Content-bar{
+	border-bottom: black;
+	border-style: solid;
+	border-width: 3px;
+	background-color: #acacac;
+}
+
+.Restaurant{
+  font-size: 35px;
+  color: black;
+  font-weight: bold;
+  padding-left: 25px;
+}
+
+.Restaurant :hover{
+	 color: white;
+}
+
+
+.nav-title{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
+}
+
+.icon-bar{
+	background-color: white;
+}
+
+
+.Title{
+  margin-bottom: 15px;
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.menu-title{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid black;
+	color: black;
+	display: block;
+}
+
+.menu-item:hover{
+	color: rgba(0,0,0,0.4);
+}
+
+.row{
+	margin: 20px;
+}
+
+.content-menu{
+	margin: 20px;
+    font-weight: 700;
+	width: auto;
+	height: auto;
+	color: black;
+	background-color: #acacac;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 20px;
+}
+
+.menu-name{
+    font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+}
+/* Content End */
+
+/* Footer Start */
+.footer{
+	background-color: #cecece;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-content{
+	font-size: 35px;
+	color: black;
+	font-weight: bold;
+	float: right;
+	margin-right: 4px;
+}
+  /* Footer End */
